@@ -1,3 +1,11 @@
+//
+//  StatsView.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Stats
 
 struct StatsView: View {
@@ -123,15 +131,6 @@ struct StatsView: View {
 
     private var winsByPlayer: [(String, Int)] {
         let grouped = Dictionary(grouping: store.archive) { $0.participant.name }
-
-        if grouped.isEmpty {
-            return [
-                ("Emma", 1),
-                ("Sophie", 1),
-                ("Luca", 1),
-                ("Max", 1)
-            ]
-        }
 
         return grouped
             .map { ($0.key, $0.value.count) }

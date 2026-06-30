@@ -1,3 +1,11 @@
+//
+//  RootView.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Root
 
 struct RootView: View {
@@ -25,4 +33,8 @@ struct RootView: View {
         }
         .background(AppPalette.background.ignoresSafeArea())
     }
+}
+
+#Preview {
+    RootView()
 }

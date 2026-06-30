@@ -1,3 +1,11 @@
+//
+//  LotteryStore.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Store
 
 final class LotteryStore: ObservableObject {
@@ -17,41 +25,7 @@ final class LotteryStore: ObservableObject {
     init() {
         loadGroups()
         loadArchive()
-
-        if groups.isEmpty {
-            groups = Self.defaultGroups
-        }
     }
-
-    static let defaultGroups: [ParticipantGroup] = [
-        ParticipantGroup(
-            name: "Family",
-            emoji: "👨‍👩‍👧‍👦",
-            members: [
-                Participant(name: "Dad", emoji: "👨"),
-                Participant(name: "Mom", emoji: "👩"),
-                Participant(name: "Son", emoji: "🧒")
-            ]
-        ),
-        ParticipantGroup(
-            name: "Friday Friends",
-            emoji: "🍻",
-            members: [
-                Participant(name: "Alex", emoji: "🧢"),
-                Participant(name: "Kate", emoji: "🌸"),
-                Participant(name: "Max", emoji: "🎧")
-            ]
-        ),
-        ParticipantGroup(
-            name: "Marketing Team",
-            emoji: "💼",
-            members: [
-                Participant(name: "Emma", emoji: "📱"),
-                Participant(name: "Liam", emoji: "💻"),
-                Participant(name: "Olivia", emoji: "📊")
-            ]
-        )
-    ]
 
     static let templates: [LotteryTemplate] = [
         LotteryTemplate(
