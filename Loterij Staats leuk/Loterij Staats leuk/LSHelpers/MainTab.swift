@@ -1,3 +1,8 @@
+//
+//  MainTab.swift
+//  Loterij Staats leuk
+//
+
 import SwiftUI
 
 // MARK: - Tabs

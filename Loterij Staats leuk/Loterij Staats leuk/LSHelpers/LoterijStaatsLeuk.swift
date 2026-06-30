@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-#Preview {
-    RootView()
-}
-
-
-
 // MARK: - Charts
 
 struct WinsBarChart: View {

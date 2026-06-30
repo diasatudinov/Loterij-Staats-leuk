@@ -1,3 +1,11 @@
+//
+//  BottomTabBar.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Reusable UI
 
 struct BottomTabBar: View {

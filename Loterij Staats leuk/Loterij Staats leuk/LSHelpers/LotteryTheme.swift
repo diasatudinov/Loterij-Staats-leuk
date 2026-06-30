@@ -1,3 +1,11 @@
+//
+//  LotteryTheme.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Models
 
 enum LotteryTheme: String, Codable, CaseIterable, Identifiable {

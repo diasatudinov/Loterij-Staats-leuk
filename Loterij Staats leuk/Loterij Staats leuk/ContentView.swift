@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  Loterij Staats leuk
 //
-//  Created by Dias Atudinov on 30.06.2026.
 //
 
 import SwiftUI
