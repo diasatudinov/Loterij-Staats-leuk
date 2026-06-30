@@ -1,3 +1,11 @@
+//
+//  LobbyView.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Lobby
 
 struct LobbyView: View {

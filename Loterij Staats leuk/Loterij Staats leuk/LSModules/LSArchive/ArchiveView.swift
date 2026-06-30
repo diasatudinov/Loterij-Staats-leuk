@@ -1,3 +1,11 @@
+//
+//  ArchiveView.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Archive
 
 struct ArchiveView: View {

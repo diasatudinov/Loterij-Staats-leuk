@@ -1,3 +1,11 @@
+//
+//  GroupsView.swift
+//  Loterij Staats leuk
+//
+//
+
+import SwiftUI
+
 // MARK: - Groups
 
 struct GroupsView: View {
